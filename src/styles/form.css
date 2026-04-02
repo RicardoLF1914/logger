@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Jura', sans-serif;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background: linear-gradient(0deg, #838DA1 5%, #127612 99%);
+}
+
+body h1 {
+  font-size: 3rem;
+  text-shadow: 0.1rem 0.1rem 0.5rem #000;
+}
+
+body button {
+  background-color: #06920d;
+  padding: 0.5rem 3rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+body button:hover {
+  background-color: #106e1f;
+}
+
+/* FORM */
+
+form {
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+form .inputs input {
+  width: 100%;
+  font-size: 1rem;
+  padding: 1rem;
+  background-color: #FFFE;
+  color: #000;
+  outline: none;
+  border: none;
+  border-radius: 0.25rem;
+  margin-top: 0.5rem;
+}
+
+form .show {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+form .show input {
+  width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+}
+
+form .show input:checked {
+  accent-color: #133A95;
+}
+
+form button {
+  font-size: 1.25rem;
+  padding: 0.9rem 0;
+}
+
+form .recovery {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+form .recovery small {
+  font-size: 1rem;
+}

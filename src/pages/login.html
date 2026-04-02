@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Login</title>
+    <link rel="stylesheet" href="../styles/form.css"/>
+  </head>
+  <body>
+    <form>
+      <h1>Entrar</h1>
+
+      <div class="inputs">
+        <input id="username-login" type="text" placeholder="nome de usuário"/>
+        <input id="password-login" type="password" placeholder="senha"/>
+      </div>
+
+      <div class="show">
+        <input id="checkbox-login" type="checkbox"/>
+        <label for="checkbox-login">mostrar senha</label>
+      </div>
+
+      <button id="button-login">entrar</button>
+
+      <div class="recovery">
+        <small>esqueceu a senha? recupere <a href="./recovery.html">aqui</a>.</small>
+        <small>não possui conta? cadastre-se <a href="./register.html">aqui</a>.</small>
+      </div>
+    </form>
+
+    <script src="../scripts/login.js"></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../styles/form.css"/>
+  </head>
+  <body>
+    <form>
+      <h1>Cadastrar</h1>
+
+      <div class="inputs">
+        <input id="name-register" type="text" placeholder="nome"/>
+        <input id="username-register" type="text" placeholder="nome de usuário"/>
+        <input id="password-register" type="password" placeholder="senha"/>
+      </div>
+
+      <div class="show">
+        <input id="checkbox-register" type="checkbox"/>
+        <label for="checkbox-register">mostrar senha</label>
+      </div>
+
+      <button id="button-register">cadastrar</button>
+
+      <div class="recovery">
+        <small>já possui conta? entre <a href="./login.html">aqui</a>.</small>
+      </div>
+    </form>
+    
+    <script src="../scripts/register.js"></script>
+  </body>
+</html>
