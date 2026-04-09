@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="../styles/form.css"
+    />
+    <title>Recuperar</title>
+  </head>
+  <body>
+    <form>
+      <h1>recuperar</h1>
+      <div class="inputs">
+        <input
+          id="username-recovery"
+          type="text"
+          placeholder="nome de usuário"
+        />
+        <input
+          id="new-password-recovery"
+          type="password"
+          placeholder="nova senha"
+        />
+        <input
+          id="confirm-new-password-recovery"
+          type="password"
+          placeholder="confirmar nova senha"
+        />
+      </div>
+      <div class="show">
+        <input
+          id="checkbox-recovery"
+          type="checkbox"
+        />
+        <label for="checkbox-recovery">mostrar senha</label>
+      </div>
+      <button id="button-recovery">recuperar</button>
+      <div class="recovery">
+        <small>não possui conta? cadastre-se <a href="./register.html">aqui</a>.</small>
+      </div>
+    </form>
+    <script src="../scripts/recovery.js"></script>
+  </body>
+</html>
