@@ -43,10 +43,9 @@ button.addEventListener('click', (event) => {
 })
 
 checkbox.addEventListener('change', () => {
-    const type_password = new_password.getAttribute('type');
-    const type_confirm = confirm.getAttribute('type');
+    const type = new_password.getAttribute('type');
 
-    if (type_password && type_confirm === 'password') {
+    if (type === 'password') {
         new_password.setAttribute('type', 'text');
         confirm.setAttribute('type', 'text');
         return;
