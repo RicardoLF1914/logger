@@ -1,6 +1,7 @@
 const username = document.querySelector('#username-login');
 const password = document.querySelector('#password-login');
 const button = document.querySelector('#button-login');
+const checkbox = document.querySelector('#checkbox-login')
 
 button.addEventListener('click', (event) => {
     event.preventDefault();
@@ -21,4 +22,15 @@ button.addEventListener('click', (event) => {
     }
 
     window.location.href = './home.html'
+})
+
+checkbox.addEventListener('change', () => {
+    const type = password.getAttribute('type');
+
+    if (type === 'password') {
+        password.setAttribute('type', 'text');
+        return;
+    }
+
+    password.setAttribute('type', 'password');
 })
